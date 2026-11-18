@@ -1,7 +1,15 @@
 # Ôn thi giấy phép lái xe (Flutter)
 
-Ứng dụng di động/desktop giúp ôn thi lý thuyết giấy phép lái xe **hạng A1, B, C1, C** theo quy định hiện hành của Việt Nam.
-Đồ án môn **Lập trình di động**, Trường Đại học Công Thương TP.HCM (HUIT).
+[![Test và triển khai web](https://github.com/haidangbdntbqn-bit/on-thi-gplx/actions/workflows/deploy-web.yml/badge.svg)](https://github.com/haidangbdntbqn-bit/on-thi-gplx/actions/workflows/deploy-web.yml)
+
+Ứng dụng ôn thi lý thuyết giấy phép lái xe **hạng A1, B, C1, C** theo quy định hiện hành của Việt Nam, chạy trên Android, iOS, web và macOS. Đồ án cá nhân môn Lập trình di động.
+
+▶ **Dùng thử trên trình duyệt:** https://haidangbdntbqn-bit.github.io/on-thi-gplx/
+📦 **Tải APK Android:** xem mục [Releases](https://github.com/haidangbdntbqn-bit/on-thi-gplx/releases)
+
+| Trang chủ | Làm bài thi thử | Kết quả | Tra cứu biển báo |
+|---|---|---|---|
+| ![](docs/images/trang-chu.png) | ![](docs/images/thi-thu.png) | ![](docs/images/ket-qua.png) | ![](docs/images/bien-bao.png) |
 
 ## Chức năng
 
@@ -29,10 +37,10 @@ App tự chuyển sang cấu trúc mới theo ngày trên máy.
 Yêu cầu: Flutter 3.x (Dart ≥ 3.13).
 
 ```bash
-git clone <đường-dẫn-repo>
-cd on_thi_a1
+git clone https://github.com/haidangbdntbqn-bit/on-thi-gplx.git
+cd on-thi-gplx
 flutter pub get
-flutter run            # chọn thiết bị: macOS, Android, iOS, Chrome...
+flutter run            # chọn thiết bị: Android, iOS, Chrome, macOS
 ```
 
 Kiểm tra code và chạy test:
@@ -79,4 +87,4 @@ Hình biển báo mang tính minh hoạ. Hãy đối chiếu văn bản và bộ
 
 ## Tác giả
 
-Nguyễn Hải Đăng, lớp 14DHTH16, Khoa Công nghệ thông tin, HUIT.
+Nguyễn Hải Đăng – [github.com/haidangbdntbqn-bit](https://github.com/haidangbdntbqn-bit)
