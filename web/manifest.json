@@ -1,6 +1,6 @@
 {
-    "name": "on_thi_a1",
-    "short_name": "on_thi_a1",
+    "name": "Ôn thi giấy phép lái xe",
+    "short_name": "Ôn thi GPLX",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
